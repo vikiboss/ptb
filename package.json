@@ -1,0 +1,23 @@
+{
+  "name": "ptb",
+  "version": "1.0.0",
+  "description": "protobuf utils for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "tsc && npm publish"
+  },
+  "files": [
+    "protobuf",
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [],
+  "author": "Viki <hi@viki.moe> (https://github.com/vikiboss)",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  }
+}
